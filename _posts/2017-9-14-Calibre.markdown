@@ -1,0 +1,48 @@
+---
+layout: post
+published: true
+title: Calibre
+author: lulu
+author_login: lulu
+author_email: 4mg@outlook.com
+author_url: http://ed.usphere.net/
+categories: 
+---
+
+[Calibre][1] has been around for over a decade now. It was my primary ebook reader since I first installed it on my Ubuntu nearly 10 years' ago. Calibre is an exceptional software - free of cost and of ad; it makes me feel morally bound to make a donation to the author. Even after I got my Kindle Voyage, I still use Calibre regularly to [manage my book collections][6], convert books between different formats, send books to devices and of course, [read][3]. I never felt the need to explore Calibre's many other functionalities made possible by its plugins. That was until last week when I was looking for a digital version of a Chinese history book [國史大綱] for my grandchildren and attempting to build myself a small collection of Chinese literature.
+
+Calibre has two powerful plugin functions that I had not used before but I will likely need them for my Chinese ebooks. One is to [translate][14] simplified Chinese into traditional Chinese and vice versa. The other one is to [remove DRM][15]. The translation plugin was fast when I tested it (took only a few seconds to convert an entire book). I haven't finished proof-reading yet but so far, the translated text looks perfect. The second plugin is to strip copyright protection. This will have to be done before any purchased ebooks can be loaded into various devices. This plugin has to be tested on the actual file as DRM protection is not the same for different file formats. 
+
+I had expected an easier seach as [國史大綱] is not some obscure history book. It was first published nearly 80 years' ago in 1940 and had had several printings. However, the search experience that I had was probably typical for any one living overseas and trying to find and purchase a digital copy of many Chinese literature.  
+
+The problems were multiplied manyfolds due to: 
+1. my Kindle is tied to amazon.co.uk which offers only a very limited choices of Chinese books. [國史大綱] is unavailable in either Amazon UK or Amazon US. No hard copy. No Kindle copy.
+2. I set up a new account in amazon.cn with the hope that I may be able to buy books there. No, amazon.cn is probably tracking user's IP - it wouldn't allow me to make any [purchase][7] as soon as it found out that my IP address did not originate from China. 
+3. I could probably go through the trouble to try using amazon.cn with a VPN service, a fake mainland address and gift cards for payment but I wasn't sure if changing my Kindle country from UK to China was irreversible. I don't want to get stuck in the Chinese site as the bulk of my reading is English. Risk is too high for the uncertainty. Not worth it.
+4. I tried sites in Hong Kong ([超閱網][8] and Taiwan ([PubU][9], [Readmoo][10], [博客來][11], [臺灣商務][12]) but soon realized that none of these sites would allow digital download. Their ebooks are only good for reading in their own online reader. This allows them to exercise a tigher control over copyright but at the expense of limiting access of their ebooks. Without a digital download, I cannot read it offline or in my preferred reader. I did install and try out their android reading app (超閱網 and Readmoo). The experience was awful because I didn't have a android tablet and reading books on a phone is a torture.
+5. 國史大綱 was first published in 1940 and is most likely still copyrighted. It depends on the country you are in and where and when the book was first published. Books in the public domain can be found in many websites. [Gutenberg][13] is one of them. It has a decent catalog of Chinese classic literature in various popular ebook formats. Recommended although I couldn't find what I was looking for there.
+6. Googling "國史大綱下載" or "國史大綱電子書" or its various combination returned a few pages of links. Exploring and clicking on these links are inherently risky because of potential virus. I wouldn't recommend doing so under a Windows system which is almost always the target of any potential virus attack. Out of desperation, I did take the chance to download a few files but from a VM on Debian after carefully eliminating some questionable links from the Google search results. I also used Calibre in the virtual machine to import the files and examined each of them to make sure they were safe.   
+
+Here are the files and you are welcome. Do let me know of any errors especially on the translated text and I'll do some necessary editing: 
+
+* [國史大綱 - Traditional Chinese][16] - Guo Shi Da Gang - Qian Mu_T.epub
+* [國史大綱 - Simplified Chinese][17] - Guo Shi Da Gang - Qian Mu_S.mobi
+
+
+
+
+[1]: <https://calibre-ebook.com/about> "About Calibre"
+[2]: <http://business.eircom.net/media/modem_user_guide.pdf> "F1000 User Guide"
+[3]: </assets/images/screenshot_read.png> "Reading Chinese in Calibre"
+[6]: </assets/images/screenshot_calibre.png> "My Calibre"
+[7]: </assets/images/screenshot_amazon_cn.png> "No Purchase at Amazon.cn"
+[8]: <http://www.superbookcity.com/> "超閱網"
+[9]: <http://www.pubu.com.tw/> "PubU"
+[10]: <https://readmoo.com/> "ReadMoo"
+[11]: <http://www.books.com.tw/> "博客來"
+[12]: <http://www.cptw.com.tw/> "臺灣商務"
+[13]: <http://www.gutenberg.org/wiki/Main_Page> "Gutenberg"
+[14]: <https://www.mobileread.com/forums/showthread.php?t=275572> "Calibre - Translate Chinese"
+[15]: <https://apprenticealf.wordpress.com/2012/09/10/drm-removal-tools-for-ebooks/> "DRM Removal"
+[16]: <https://1drv.ms/u/s!Ao8_VAARagMlrSC5Gx-SC7SQMm9j> "國史大綱 - Traditional"
+[17]: <https://1drv.ms/u/s!Ao8_VAARagMlrR_0FW01eEFB9EG7> "國史大綱 - Simplified"
